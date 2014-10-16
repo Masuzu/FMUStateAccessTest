@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FMI2">
+      <UniqueIdentifier>{9c2fc7d5-6af8-44d0-9caa-bf4e77530bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FMI2\Parser">
+      <UniqueIdentifier>{4fc4353f-43fe-4810-b690-436d2a922f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FMI2\Parser\libxml">
+      <UniqueIdentifier>{35de85bd-a5ba-48e3-b4fa-13e336e5a6a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Simulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimulationLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\fmi2.h">
+      <Filter>FMI2</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\sim_support.h">
+      <Filter>FMI2</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\include\fmi2Functions.h">
+      <Filter>FMI2</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\include\fmi2FunctionTypes.h">
+      <Filter>FMI2</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\include\fmi2TypesPlatform.h">
+      <Filter>FMI2</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\XmlElement.h">
+      <Filter>FMI2\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\XmlParser.h">
+      <Filter>FMI2\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\XmlParserCApi.h">
+      <Filter>FMI2\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\XmlParserException.h">
+      <Filter>FMI2\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\c14n.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\catalog.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\chvalid.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\debugXML.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\dict.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\DOCBparser.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\encoding.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\entities.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\globals.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\hash.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\HTMLparser.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\HTMLtree.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\list.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\nanoftp.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\nanohttp.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\parser.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\parserInternals.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\pattern.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\relaxng.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\SAX.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\SAX2.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\schemasInternals.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\schematron.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\threads.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\tree.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\uri.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\valid.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xinclude.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xlink.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlautomata.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlerror.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlexports.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlIO.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlmemory.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlmodule.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlreader.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlregexp.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlsave.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlschemas.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlschemastypes.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlstring.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlunicode.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlversion.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlwin32version.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xmlwriter.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xpath.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xpathInternals.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+    <ClInclude Include="fmu20\src\shared\parser\libxml\xpointer.h">
+      <Filter>FMI2\Parser\libxml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimulationLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fmu20\src\shared\sim_support.cpp">
+      <Filter>FMI2</Filter>
+    </ClCompile>
+    <ClCompile Include="fmu20\src\shared\parser\XmlElement.cpp">
+      <Filter>FMI2\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="fmu20\src\shared\parser\XmlParser.cpp">
+      <Filter>FMI2\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="fmu20\src\shared\parser\XmlParserCApi.cpp">
+      <Filter>FMI2\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
