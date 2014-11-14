@@ -1,4 +1,4 @@
-Showcase of a bug with Dymola 2015 FMUs. The program on this repository performs the following actions:
+Showcase of a bug with Dymola 2015 FMUs (FMUs are black boxes representing a model and which embed solvers). The program on this repository performs the following actions:
 1. Start simulation at time t0
 2. Save FMU state
 3. Simulate until t1
