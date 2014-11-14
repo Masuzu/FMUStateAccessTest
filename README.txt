@@ -1,3 +1,14 @@
+Showcase of a bug with Dymola 2015 FMUs. The program on this repository performs the following actions:
+1. Start simulation at time t0
+2. Save FMU state
+3. Simulate until t1
+4. Read the results and store them in R1
+5. Go back to t0 by restoring the FMU state saved at 2
+6. Simulate until t1
+7. Read the results and store them in R2
+
+R1 is expected to be equal to R2. Yet, it is not the case!
+
 Requires VC++ 2012 for compilation.
 Open FMUStateAccessTest.sln and press F7 for compilation.
 Press F5 to run the tests.
